@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Steganografie": {
+      "commandName": "Project",
+      "commandLineArgs": "\"--hide\" \"--show\""
+    }
+  }
+}
