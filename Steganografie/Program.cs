@@ -1,10 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 
 
 namespace Steganografie
@@ -17,11 +12,11 @@ namespace Steganografie
             
             if (args[0] == "--hide" && zasifrovatText.Length != 0 && args[2].Contains(".png"))
             {
-                Hide(zasifrovatText, args[2]).Save(args[2]);
+                Hide(zasifrovatText, args[2]).Save("zasifrovano.png");
             }
             else if (args[0] == "--show" && args[1].Contains(".png"))
             {
-                Console.WriteLine(Show(args[2].ToString()));
+                Console.WriteLine(Show(args[1].ToString()));
             }
             Console.ReadKey();
         }

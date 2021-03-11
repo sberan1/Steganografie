@@ -2,7 +2,10 @@
   "profiles": {
     "Steganografie": {
       "commandName": "Project",
-      "commandLineArgs": "\"--hide\" \"--show\""
+      "commandLineArgs": "--hide \"Uprchlíci chystají protest proti SPD. Údajně se má sjet všech dvanáct uprchlíků! Minulý čtvrtek jsme prodali jmenný seznam Facebookové skupiny \"Fanklub Tomia Okamury a SPD\" Bohnicím.\" plakat-stp.png"
+    },
+    "newProfile1": {
+      "commandName": "Executable"
     }
   }
 }
